@@ -1,0 +1,18 @@
+#!/bin/bash
+set -e
+
+# cd cagan_vggface_vgg16/
+
+if [ ! -d "./output" ]; then
+  mkdir ./output
+fi
+# mkdir output
+for ((i=500;i<=800;i=i+50))
+do
+    echo "process $i epoch"
+    python test.py --test_epoch $i 
+
+done
+
+
+

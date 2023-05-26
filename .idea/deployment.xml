@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="Always" serverName="lixiang@47.102.112.240:2022">
+    <serverData>
+      <paths name="lixiang@10.1.130.181:22">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/lixiang/lx/scagan" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="lixiang@47.102.112.240:2022">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/lixiang/lx/scagan" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
+  </component>
+</project>
